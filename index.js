@@ -2,6 +2,8 @@
 
 console.log("---- starts ---");
 
+
+
 var comments = [
   {
     id : "c1",
@@ -46,3 +48,16 @@ console.log(comments.length);
 
   console.log("--- Result ----");
   console.log(returnArr);
+
+
+// ADVANCED - Delete Object array from an Object
+var obj = {
+  name: "John",
+  comment: comments
+}
+
+  console.log(obj.comment); // at the moment
+
+  obj.comment = returnArr; //LET
+  console.log(" --- New ---");
+  console.log(obj.comment);
