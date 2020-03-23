@@ -37,9 +37,12 @@ console.log(comments.length);
     if(comments[i].id === target) {
       console.log("Match!");
     } else {
+
       console.log(comments[i]);
-      // returnArr.push()
+      returnArr.push(comments[i])
       // console.log(returnArr);
     }
-
   }
+
+  console.log("--- Result ----");
+  console.log(returnArr);
