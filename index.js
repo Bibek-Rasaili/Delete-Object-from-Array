@@ -26,3 +26,20 @@ var comments = [
 ];
 
 console.log(comments.length);
+
+  let target = "c4";
+  const returnArr = [];
+
+  console.log(returnArr);
+  for (let i=0; i< comments.length; i++){
+
+
+    if(comments[i].id === target) {
+      console.log("Match!");
+    } else {
+      console.log(comments[i]);
+      // returnArr.push()
+      // console.log(returnArr);
+    }
+
+  }
